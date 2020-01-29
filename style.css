@@ -1,0 +1,94 @@
+html {
+  color: -internal-root-color;
+}
+
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #4352A1;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(241,241,246, 1), rgba(241, 241, 246, 1));
+  color: #333333;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 750px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 450px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+/*@media (max-width: 750px)
+.container {
+    width: 450px;
+}*/
+
+
+
+
+
+
+
+
